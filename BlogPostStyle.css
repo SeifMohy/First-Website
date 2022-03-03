@@ -1,0 +1,58 @@
+*{
+  background-color: lightblue;
+}
+.clr{
+  clear: both;
+}
+.p-pic img{
+  border-radius: 50%;
+  width: 150px;
+}
+
+.p-pic{
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.info{
+  float: right;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 18px;
+}
+
+.calc{
+  padding: 15px;
+  position: center;
+}
+
+.calc .Firstn{
+  position: relative;
+  left: 1%;
+  top: 30%;
+}
+
+.calc .Secondn{
+  position: relative;
+  left: 21%;
+  top: -39px;
+}
+
+.calc input {
+  display: block;
+}
+
+.calc .Button{
+  position: relative;
+  left: 40%;
+  top: -60px;
+}
+
+.calc .plus{
+  position: relative;
+  left:16.7%;
+  top: -101px;
+  width: 1.5px;
+}
