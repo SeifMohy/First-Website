@@ -6,5 +6,5 @@ form.addEventListener('submit', calculate);
 
 function calculate(e){
     e.preventDefault();
-    alert(`The answer of ${num1.value} + ${num2.value} = ${Number(num1.value) + +Number(num2.value)}`);
+    alert(`The answer of ${num1.value} + ${num2.value} is ${Number(num1.value) + +Number(num2.value)}`);
 }
